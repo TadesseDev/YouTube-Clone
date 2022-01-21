@@ -6,6 +6,7 @@ body {
   background-color: var(--dark);
   color: white;
   font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 nav {
   background-color: var(--dark1);
