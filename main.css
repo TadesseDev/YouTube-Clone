@@ -1,5 +1,101 @@
+@import url("/define.css");
 html,
 body {
   margin: 0px;
   padding: 0px;
+  background-color: var(--dark);
+<<<<<<< HEAD
+  color: white;
+=======
+>>>>>>> 6ffcf822c8a5bf4e2c43077a15709ae2f7c297c3
+}
+nav {
+  background-color: var(--dark1);
+  max-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 5px 20px;
+  font-family: "Oswald", sans-serif;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.icon {
+  width: 25px;
+  display: inline-block;
+  /* background-color: silver; */
+  overflow: height;
+  margin-left: 20px;
+}
+
+img {
+  width: 100%;
+  display: inline;
+}
+
+.search button {
+  height: 35px;
+  background: var(--dark2);
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.search input {
+  height: 30px;
+  padding: none;
+  outline: none;
+  border: none;
+  background: var(--dark);
+  width: 30vw;
+  color: silver;
+  border-radius: 2px;
+}
+.search input:focus {
+  border: 0.5px solid rgb(45, 139, 247);
+}
+.search button img {
+  padding-top: 20%;
+  height: 60%;
+  transform: rotate(270deg);
+}
+.userAction .icon {
+  width: 18px;
+  height: 18px;
+}
+.userAction .icon:last-child {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+<<<<<<< HEAD
+}
+.mainContent {
+  width: 70%;
+  min-height: 100vh;
+  background-color: var(--dark);
+  display: inline-block;
+  float: left;
+}
+.sideBar {
+  display: inline-block;
+  width: 30%;
+  min-height: 100vh;
+  background-color: aqua;
+}
+#playingVideo {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+#playingVideo iframe {
+  width: 100%;
+  min-height: 35vw;
+}
+#playingVideo .hashTags {
+  color: rgb(45, 139, 247);
+=======
+>>>>>>> 6ffcf822c8a5bf4e2c43077a15709ae2f7c297c3
 }
