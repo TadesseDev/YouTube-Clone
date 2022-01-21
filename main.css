@@ -4,7 +4,10 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: var(--dark);
+<<<<<<< HEAD
   color: white;
+=======
+>>>>>>> 6ffcf822c8a5bf4e2c43077a15709ae2f7c297c3
 }
 nav {
   background-color: var(--dark1);
@@ -67,6 +70,7 @@ img {
   height: 25px;
   border-radius: 50%;
   background: white;
+<<<<<<< HEAD
 }
 .mainContent {
   width: 70%;
@@ -92,4 +96,6 @@ img {
 }
 #playingVideo .hashTags {
   color: rgb(45, 139, 247);
+=======
+>>>>>>> 6ffcf822c8a5bf4e2c43077a15709ae2f7c297c3
 }
