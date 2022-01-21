@@ -5,6 +5,7 @@ body {
   padding: 0px;
   background-color: var(--dark);
   color: white;
+  font-family: "Oswald", sans-serif;
 }
 nav {
   background-color: var(--dark1);
@@ -13,7 +14,6 @@ nav {
   justify-content: space-between;
   color: white;
   padding: 5px 20px;
-  font-family: "Oswald", sans-serif;
 }
 nav div {
   display: flex;
@@ -42,7 +42,7 @@ img {
 }
 .search input {
   height: 30px;
-  padding: none;
+  padding: 0px 10px;
   outline: none;
   border: none;
   background: var(--dark);
@@ -69,7 +69,7 @@ img {
   background: white;
 }
 .mainContent {
-  width: 70%;
+  width: 75%;
   min-height: 100vh;
   background-color: var(--dark);
   display: inline-block;
@@ -77,12 +77,12 @@ img {
 }
 .sideBar {
   display: inline-block;
-  width: 30%;
+  width: 25%;
   min-height: 100vh;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 #playingVideo {
-  width: 90%;
+  width: 95%;
   margin: auto;
   margin-top: 20px;
 }
@@ -98,8 +98,197 @@ img {
   font-size: 1.2rem;
   font-family: "Oswald", sans-serif;
 }
-#playingVideo .aboutVedio {
+#playingVideo .aboutVideo {
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
+  border-bottom: 1px solid #4a4a4a;
+}
+#playingVideo .aboutVideo .left {
+  color: rgb(136, 136, 136);
+}
+.aboutVideo span {
+  margin: 0px 10px 0px 0px;
+}
+.aboutVideo .icon {
+  width: 20px;
+  margin-right: 5px;
+}
+#playingVideo .aboutVideo .right {
+  display: flex;
+  align-items: center;
+}
+.chanel {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.chanel > div {
+  display: flex;
+  justify-content: flex-start;
+}
+.chanel .left div:nth-child(2) {
+  margin-left: 10px;
+}
+.chanel .left p {
+  margin: 0px 10px;
+}
+.chanel .left .title {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: silver;
+}
+.chanel .left .small {
+  font-size: 0.7rem;
+  color: silver;
+}
+.chanel .left .chanelLogo {
+  margin-left: 0px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.right .subscribeButton {
+  background-color: red;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* height: 30px; */
+  padding: 0.6vw 1vw;
+}
+.more {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: silver;
+}
+.more p {
+  margin: 0px;
+}
+.chanelOwner {
+  border-bottom: 1px solid #575757;
+  padding: 10px 0px;
+}
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+.comments .review {
+  margin: 20px 0px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.comments .review .icon {
+  margin-left: 40px;
+  margin-right: 5px;
+  width: 20px;
+}
+.commentLists .icon {
+  display: block;
+  margin-left: 0px;
+  width: 40px;
+  height: 40px;
+  background: silver;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+.commentLists .singleComment {
+  display: flex;
+  margin: 15px 0px;
+}
+.commentLists .singleComment p {
+  margin: 5px 5px;
+  color: silver;
+}
+.commentLists .singleComment .name {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.commentLists .singleComment .comment {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+.commentLists .singleComment {
+  width: 100%;
+}
+.commentLists .singleComment .newComment {
+  width: 100%;
+}
+.commentLists .singleComment input {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  background-color: var(--dark);
+}
+.commentLists .singleComment .buttons {
+  margin: 10px 5px;
+  display: inline-block;
+  float: right;
+}
+.commentLists .singleComment .buttons button {
+  padding: 0.5vw 0.8vw;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.commentLists .singleComment .buttons button:nth-child(2) {
+  background-color: var(--dark2);
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+}
+.sideBar .top {
+  margin: 20px 0px;
+  padding: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 20px;
+}
+.sideBar .top button {
+  background-color: var(--dark2);
+  color: white;
+  border: none;
+  padding: 5px 6px;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+.sideBar .top button:first-child {
+  background-color: white;
+  color: var(--dark);
+}
+.sideBar .SinglePreview {
+  display: flex;
+  margin: 8px 0px;
+}
+.sideBar .SinglePreview img {
+  width: 10vw;
+  margin-right: 8px;
+}
+.sideBar .SinglePreview p {
+  margin: 0px;
+  font-size: 0.8rem;
+  font-weight: 50;
+}
+.sideBar .SinglePreview .subtitle {
+  color: silver;
+}
+.sideBar .SinglePreview .records,
+.sideBar .SinglePreview .likeAndView {
+  font-size: 0.7rem;
+  color: silver;
+}
+
+.sideBar .SinglePreview .likeAndView span {
+  margin-right: 10px;
 }
