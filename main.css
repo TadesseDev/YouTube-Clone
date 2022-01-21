@@ -92,6 +92,8 @@ img {
 }
 #playingVideo .hashTags {
   color: rgb(45, 139, 247);
+  font-size: 0.8rem;
+  margin-top: 5px;
 }
 #playingVideo .title p {
   margin-top: 0px;
