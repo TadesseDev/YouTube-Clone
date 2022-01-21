@@ -4,10 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: var(--dark);
-<<<<<<< HEAD
   color: white;
-=======
->>>>>>> 6ffcf822c8a5bf4e2c43077a15709ae2f7c297c3
 }
 nav {
   background-color: var(--dark1);
@@ -70,7 +67,6 @@ img {
   height: 25px;
   border-radius: 50%;
   background: white;
-<<<<<<< HEAD
 }
 .mainContent {
   width: 70%;
@@ -96,10 +92,14 @@ img {
 }
 #playingVideo .hashTags {
   color: rgb(45, 139, 247);
-=======
->>>>>>> 6ffcf822c8a5bf4e2c43077a15709ae2f7c297c3
 }
-#playingVideo .title{
-
-font-family: 'Oswald', sans-serif;
+#playingVideo .title p {
+  margin-top: 0px;
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+}
+#playingVideo .aboutVedio {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
 }
